@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Biografía de Julieta Jankunas</title>
+</head>
+
+<body>
+
+    <div class="background">
+        <video autoplay muted loop id="background-video">
+            <source src="docs/fondoanimado.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header>
+        <h1>Julieta Jankunas</h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Introducción</h2>
+            <p>Julieta Jankunas es una destacada jugadora de hockey sobre césped, representando a Las Leonas en
+                múltiples torneos internacionales.</p>
+        </section>
+        <section id="carrusel">
+            <h2>Galería de Imágenes de Juli</h2>
+            <div class="carrusel">
+                <div class="imagenes">
+                    <img src="docs/Juli Jankunas.jpg" alt="Imagen de Julieta Jankunas 1">
+                    <img src="docs/Leonas.jpg" alt="Imagen de Julieta Jankunas 2">
+                    <img src="docs/juliiita.jpg" alt="Imagen de Julieta Jankunas 3">
+                </div>
+            </div>
+        </section>
+
+        <!-- Video de goles de Julieta Jankunas -->
+        <section id="video">
+            <h2>Goles Destacados</h2>
+            <video width="560" height="315" controls>
+                <source src="docs/Gol-de-jankunas.mp4" type="video/mp4">
+                <!-- Asegúrate de que "Gol de Jankunas.mp4" sea el nombre correcto de tu archivo de video -->
+            </video>
+        </section>
+        <section id="stats">
+            <h2>Logros</h2>
+            <table>
+                <tr>
+                    <th>Año</th>
+                    <th>Competencia</th>
+                    <th>Logro</th>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>Juegos Olímpicos</td>
+                    <td>Medalla de Plata</td>
+                </tr>
+            </table>
+        </section>
+        <section id="achievements">
+            <h2>Premios y Reconocimientos</h2>
+            <ul id="logros-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sitio de Julieta Jankunas</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
